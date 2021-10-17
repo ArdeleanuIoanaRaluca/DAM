@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#f2f1f6"
+    android:orientation="vertical"
+    tools:context=".LogIn">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:background="@color/white"
+        android:text="Autentificare"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:text="Autentifica-te cu email si parola"
+        android:textColor="@color/black"
+        android:textSize="26dp"></TextView>
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:hint="Adresa de email"
+        android:textSize="20dp"></EditText>
+
+
+    <EditText
+        android:id="@+id/parola"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:hint="Parola"
+        android:textSize="20dp"></EditText>
+
+    <Button
+        android:id="@+id/autentificare"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0081e9"
+        android:text="autentificare"
+        android:textSize="18dp"></Button>
+
+    <Button
+        android:id="@+id/parolaUitata"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#f0f2f5"
+        android:text="Ai uitat parola?"
+        android:textColor="#0081e9"
+        android:textSize="18dp"></Button>
+
+    <Button
+        android:id="@+id/contNou"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#f0f2f5"
+        android:text="Creeaza un cont nou?"
+        android:textColor="#0081e9"
+        android:textSize="18dp"></Button>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:text="Sau rapid cu "
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold"></TextView>
+
+    <Button
+        android:id="@+id/btnApple"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:text="Autentifica-te cu Apple"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"></Button>
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="Autentifica-te cu Google"
+        android:textColor="@color/black"
+        android:textSize="18dp"></Button>
+
+    <Button
+        android:id="@+id/btnFacebook"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="Autentifica-te cu Facebook"
+        android:textColor="@color/black"
+        android:textSize="18dp"></Button>
+
+
+</LinearLayout>

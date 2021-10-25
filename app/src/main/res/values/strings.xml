@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">eMag</string>
+    <string name="email">email</string>
+    <string name="inapoi">inapoi</string>
+    <string name="Email">Email</string>
+    <string name="Parola">Parola</string>
+    <string name="numeprenume">Nume Prenume</string>
+    <string name="creeazacontul">Creeaza contul</string>
+    <string name="password_error">Parola invalida</string>
+    <string name="error_invalid_password">Parola invalida</string>
 
 </resources>

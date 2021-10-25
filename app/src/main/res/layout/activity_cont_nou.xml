@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContNou"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#f2f1f6">
+
+    <Button
+        android:id="@+id/button_inapoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:backgroundTint="@color/white"
+        android:gravity="left"
+        android:text="@string/inapoi"
+        android:textColor="#0081e9">
+
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:text="Creeaza cont cu adresa de email"
+            android:textColor="@color/black"
+            android:textSize="24dp"></TextView>
+
+
+        <EditText
+            android:id="@+id/ed_numeprenume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/numeprenume"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+
+        <EditText
+            android:id="@+id/ed_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+
+
+        <EditText
+            android:id="@+id/ed_parola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Parola"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btnCreeazaCont"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/borderbutton"
+            android:backgroundTint="#0081e9"
+            android:gravity="center_horizontal"
+            android:text="@string/creeazacontul"
+            android:textSize="18dp"></Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/white"
+            android:text="Sau rapid cu "
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"></TextView>
+
+        <Button
+            android:id="@+id/btnApple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            android:text="Autentifica-te cu Apple"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:drawableBottom="@android:color/black"></Button>
+
+        <Button
+            android:id="@+id/btnGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="Autentifica-te cu Google"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_gravity="center"></Button>
+
+        <Button
+            android:id="@+id/btnFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:text="Autentifica-te cu Facebook"
+            android:textColor="@color/black"
+            android:textSize="18dp"></Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>
